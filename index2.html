@@ -1,34 +1,25 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-
-   <title></title>
-
+    <title></title>
 </head>
 
 <body>
+    <p id='message'></p>
+    <script type="text/javascript">
+    try {
+        var person = prompts("Please enter your name", "Harry Potter");
 
-   <p id='message'></p>
+        document.getElementById("message").innerHTML =
 
-   <script type="text/javascript">
+            "Hello " + person + "! How are you today?";
+    } catch (err) {
+        alert("An error has occured... The  " + err + "must be fixed")
+    }
+    </script>
 
- try {
- 	  	var person = prompts("Please enter your name", "Harry Potter");
-
-   	document.getElementById("message").innerHTML =
-
-   	"Hello " + person + "! How are you today?";
- }
-
- catch (err){
- 	alert("An error has occured... The  " + err + "must be fixed")
- }
- 
-
-   </script>
-
+    
 </body>
 
 </html>

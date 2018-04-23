@@ -98,22 +98,45 @@ document.write("<hr>");
 
 document.write("<h1> Intermediate 1 | Capitalize</h1>");
 
-// function upCase(str){ 
-// 	var first = str.charAt(2); 
-// };
-// document.write(upcase(hallo));
-
-// function myFunction() {
-//     var str = "HELLO WORLD";
-//     var res = str.charAt(2);
-// }
-// document.write(myFunction(hallo);
 var str = "i am a web developer";
 var upper = (function() {  
-  // var res = str.charAt(0);
   return document.write(str.charAt(0).toUpperCase() + str.slice(1));
 
 }());
+
+// Intermediate 2 | Average Grade
+
+document.write("<h1> Intermediate 2 | Average Grade</h1>");
+
+    function average(){
+        var a=parseInt(document.getElementById("math").value);
+		var b=parseInt(document.getElementById("physics").value);
+		var c=parseInt(document.getElementById("english").value);
+        var afinal=((a+b+c)/3);
+       
+            document.getElementById('avg').value=afinal;
+        }
+// document.getElementById("button-average").onclick = function average(){
+//         var a=parseInt(document.getElementById("math").value);
+// 		var b=parseInt(document.getElementById("physics").value);
+// 		var c=parseInt(document.getElementById("english").value);
+//         var afinal=((a+b+c)/3);
+//         // if (isNaN())
+//             document.getElementById('avg').value=afinal;
+//         }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
