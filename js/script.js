@@ -103,15 +103,17 @@ document.write("<h1> Intermediate 1 | Capitalize</h1>");
 // };
 // document.write(upcase(hallo));
 
-function myFunction() {
-    var str = "HELLO WORLD";
-    var res = str.charAt(2)
-    document.write(res);
-}
+// function myFunction() {
+//     var str = "HELLO WORLD";
+//     var res = str.charAt(2);
+// }
+// document.write(myFunction(hallo);
+var str = "i am a web developer";
+var upper = (function() {  
+  // var res = str.charAt(0);
+  return document.write(str.charAt(0).toUpperCase() + str.slice(1));
 
-
-
-
+}());
 
 
 
