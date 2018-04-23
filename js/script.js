@@ -94,10 +94,20 @@ document.write("<hr>");
 
 
 
-// Basic 6 | Error handling
+// Intermediate 1 | Capitalize
 
-document.write("<h1> Basic 6 | Error handling</h1>");
+document.write("<h1> Intermediate 1 | Capitalize</h1>");
 
+// function upCase(str){ 
+// 	var first = str.charAt(2); 
+// };
+// document.write(upcase(hallo));
+
+function myFunction() {
+    var str = "HELLO WORLD";
+    var res = str.charAt(2)
+    document.write(res);
+}
 
 
 
